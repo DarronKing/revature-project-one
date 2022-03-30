@@ -1,0 +1,19 @@
+[
+    { 
+        "name" : "CC#1", 
+        "balance" : 1153.94, 
+        "payment_due" : 28, 
+        "type" : "credit" 
+    },
+    { 
+        "name" : "CC#2", 
+        "balance" : 1293.06, 
+        "payment_due" : 23,
+        "type" : "credit" 
+    }, 
+    { 
+        "name" : "USD", 
+        "balance" : 1112.53,
+        "type" : "cash"
+     }
+]
