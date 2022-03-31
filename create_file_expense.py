@@ -5,25 +5,12 @@ def createFileExpense():
     db = databaseConnection()
     dbExpenses = db["expenses"]
 
-    # file = input("enter the json: ")
-
-    # fileOpen = open("/revature-project-one/expenseJSON/" + str(file), 'r')
-    # fileOpen = open("C:\\Users\dare5\Documents\Revature\projectOneV1.2\revature-project-one\expenseJSON" + str(file), 'r')
-    # fileOpen = open(file, 'r')
-
-    # fileOpen = open("revature-project-one/" + file, 'r')
-    # fileOpen = open("C:/Users/dare5/Documents/Revature/revature-project-one/" + file)
-    # data = json.load(fileOpen)
-    # print(data)
-
-
     while True:
         try:
             file = input("Enter the json file name: ")
             if file == "0":
                 break
 
-            # fileOpen = open("revature-project-one/" + file, 'r')
             fileOpen = open("C:/Users/dare5/Documents/Revature/revature-project-one/" + file)
 
             data = json.load(fileOpen)

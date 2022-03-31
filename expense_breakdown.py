@@ -14,14 +14,6 @@ def expenseBreakdown():
     categoryArr = []
     colorsArr = []
 
-    # categoryAggExpense = dbExpenses.aggregate(
-    #         [{"$group": {"_id": "$category", "total_amt": {"$sum": "$cost"}}}]
-    #     )
-    # for i in categoryAggExpense:
-    #     print(i)
-    #     count += 1
-    
-    # df = pd.DataFrame(categoryAggExpense)
     df = pd.DataFrame(
         dbExpenses.aggregate(
             [{"$group": {"_id": "$category", "total_amt": {"$sum": "$cost"}}}]
@@ -62,4 +54,3 @@ def expenseBreakdown():
         print("     No Expenses in Database")
         print("    #########################")
         print("      Returning to Main Menu")
-        return
