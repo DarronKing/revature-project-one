@@ -12,15 +12,19 @@ def createFileExpense():
     # fileOpen = open(file, 'r')
 
     # fileOpen = open("revature-project-one/" + file, 'r')
+    # fileOpen = open("C:/Users/dare5/Documents/Revature/revature-project-one/" + file)
     # data = json.load(fileOpen)
     # print(data)
+
+
     while True:
         try:
             file = input("Enter the json file name: ")
             if file == "0":
                 break
 
-            fileOpen = open("revature-project-one/" + file, 'r')
+            # fileOpen = open("revature-project-one/" + file, 'r')
+            fileOpen = open("C:/Users/dare5/Documents/Revature/revature-project-one/" + file)
 
             data = json.load(fileOpen)
             dbExpenses.insert_many(data)

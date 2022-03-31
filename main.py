@@ -2,7 +2,7 @@ from class_menu import Menu
 from create_expense import addExpense
 from view_accounts import viewAccounts
 from create_file_expense import createFileExpense
-# from expense_breakdown import expenseBreakdown
+from expense_breakdown import expenseBreakdown
 
 mainMenu = Menu(
     {
@@ -28,8 +28,8 @@ while True:
         addExpense()
     elif response == 2:
         viewAccounts()
-    # elif response == 3:
-        # expenseBreakdown()
+    elif response == 3:
+        expenseBreakdown()
     elif response == 4:
         createFileExpense()
 

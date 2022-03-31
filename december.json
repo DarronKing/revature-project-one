@@ -1,6 +1,6 @@
 [
     {
-        "cost" : "73.93",
+        "cost" : 73.93,
         "date" : "2021-12-30",
         "store" : "The Home Depot",
         "account" : "CC#1",
@@ -8,7 +8,7 @@
         "description" : "Stuff for house"
     },
     {
-        "cost" : "10.24",
+        "cost" : 10.24,
         "date" : "2021-12-28",
         "store" : "Galivan Center",
         "account" : "CC#1",
@@ -16,7 +16,7 @@
         "description" : "Skating with family"
     },
     {
-        "cost" : "50.58",
+        "cost" : 50.58,
         "date" : "2021-12-24",
         "store" : "Holiday Oil",
         "account" : "CC#1",
@@ -24,7 +24,7 @@
         "description" : "Fuel"
     },
     {
-        "cost" : "435.47",
+        "cost" : 435.47,
         "date" : "2021-12-23",
         "store" : "University of Utah",
         "account" : "CC#1",
@@ -32,7 +32,7 @@
         "description" : "Payment plan for Spring Tuition"
     },
     {
-        "cost" : "107.24",
+        "cost" : 107.24,
         "date" : "2021-12-20",
         "store" : "Costco",
         "account" : "CC#1",
@@ -40,7 +40,7 @@
         "description" : "Bulk food for myself"
     },
     {
-        "cost" : "35.33",
+        "cost" : 35.33,
         "date" : "2021-12-19",
         "store" : "Walmart",
         "account" : "CC#1",
@@ -48,7 +48,7 @@
         "description" : "Meal for Carolyn's house"
     },
     {
-        "cost" : "51.78",
+        "cost" : 51.78,
         "date" : "2021-12-17",
         "store" : "Holiday Oil",
         "account" : "CC#1",
@@ -56,7 +56,7 @@
         "description" : "Fuel"
     },
     {
-        "cost" : "93.84",
+        "cost" : 93.84,
         "date" : "2021-12-12",
         "store" : "Costco",
         "account" : "CC#2",
@@ -64,7 +64,7 @@
         "description" : "Freezer food for me"
     },
     {
-        "cost" : "20",
+        "cost" : 20,
         "date" : "2021-12-12",
         "store" : "Great Clips",
         "account" : "CC#1",
@@ -72,7 +72,7 @@
         "description" : "Haircut"
     },
     {
-        "cost" : "10.71",
+        "cost" : 10.71,
         "date" : "2021-12-10",
         "store" : "Adobe",
         "account" : "CC#1",
@@ -80,7 +80,7 @@
         "description" : "Photoshop Monthly"
     },
     {
-        "cost" : "74.75",
+        "cost" : 74.75,
         "date" : "2021-12-09",
         "store" : "DMV",
         "account" : "CC#2",
@@ -88,7 +88,7 @@
         "description" : "Registration Renewal"
     },
     {
-        "cost" : "48.17",
+        "cost" : 48.17,
         "date" : "2021-12-08",
         "store" : "Jakes Lube",
         "account" : "USD",
@@ -96,7 +96,7 @@
         "description" : "Inspection"
     },
     {
-        "cost" : "6.51",
+        "cost" : 6.51,
         "date" : "2021-12-08",
         "store" : "Subway",
         "account" : "CC#2",
@@ -104,7 +104,7 @@
         "description" : "Lunch Sandwich"
     },
     {
-        "cost" : "8.55",
+        "cost" : 8.55,
         "date" : "2021-12-07",
         "store" : "Panda Express",
         "account" : "CC#1",
@@ -112,7 +112,7 @@
         "description" : "Lunch Panda"
     },
     {
-        "cost" : "9.49",
+        "cost" : 9.49,
         "date" : "2021-12-05",
         "store" : "Betos",
         "account" : "CC#1",
@@ -120,7 +120,7 @@
         "description" : "Lunch Burritto"
     },
     {
-        "cost" : "45.90",
+        "cost" : 45.90,
         "date" : "2021-12-04",
         "store" : "Holiday Oil",
         "account" : "CC#1",
@@ -128,11 +128,19 @@
         "description" : "Fuel"
     },
     {
-        "cost" : "35",
+        "cost" : 35,
         "date" : "2021-12-03",
         "store" : "University of Utah",
         "account" : "CC#2",
         "category" : "Debts",
         "description" : "Tuition payment plan fee"
+    },
+    {
+        "cost" : 35,
+        "date" : "2021-12-03",
+        "store" : "LandLord",
+        "account" : "USD",
+        "category" : "Housing",
+        "description" : "Monthly Rent"
     }
 ]
