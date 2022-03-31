@@ -9,7 +9,6 @@ from database_connect import databaseConnection
 def expenseBreakdown():
     db = databaseConnection()
     dbExpenses = db["expenses"]
-    count = 0
     expenseArr = []
     categoryArr = []
     colorsArr = []
@@ -38,7 +37,6 @@ def expenseBreakdown():
 
         plt.pie(
             expenseArr,
-            # explode=False,
             labels=categoryArr,
             colors=colorsArr,
             autopct="%1.1f%%",

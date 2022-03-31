@@ -54,7 +54,6 @@ def viewAccounts():
         print ("###################")
         print(f"Account Name: {account['name']}")
         print(f"Balance: {round(float(account['balance']), 2)}")
-        # round(float(i['balance']), 2
         if "payment_due" in account:
             print(f"Due Date: {account['payment_due']}")
         print ("###################")
