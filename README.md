@@ -25,6 +25,12 @@ git clone https://github.com/DarronKing/revature-project-one.git
 * Python 3
 * MongoDB
 
+Run the two following commands in Command Prompt to start the MongoDB shell and Server
+* "C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
+  * Starts the mongoDB server --The mongoDB server needs to be ran every time for the program to function 
+* "C:\Program Files\MongoDB\Server\5.0\bin\mongo.exe"
+  * Starts the mongoDB shell --Only required for setting up the dataBase -- first time only --
+
 Inside of MongoDB Shell
 * Set up database: revatureTrial
   * use revatureTrial
